@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## 🦉 Main information
 
 Responsive burger menu with blur effect.\
-Built on React using React Hooks and props properties.
+Built on React using React Hooks and React props properties.
 
 ## ⏲️ Run project
 
