@@ -16,14 +16,11 @@ nav {
     padding-left: 2rem;
 }
 
-main {
-    padding: 7rem 2rem;
-}
-
 p {
-    margin: 20px;
+    margin: 2rem 5rem;
     font-size: 1.5rem;
     line-height: 2rem;
+    text-align: justify;
 }
 
 .burger-btn{
@@ -40,7 +37,7 @@ p {
     top:0;
     width: 50px;
     background-color: white;
-    height: 5px;
+    height: 4px;
     border-radius: 5px;
 }
 
@@ -50,7 +47,7 @@ p {
     top:8px;
     width: 35px;
     background-color: white;
-    height: 5px;
+    height: 4px;
     border-radius: 5px;
 }
 
@@ -60,8 +57,13 @@ p {
     bottom:0;
     width: 20px;
     background-color: white;
-    height: 5px;
+    height: 4px;
     border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .menu {
@@ -96,10 +98,10 @@ p {
 }
 
 .menu_header {
-    font-size: 2rem;
+    font-size: 3rem;
     color: white;
     padding: 5rem 3rem 0;
-    border-bottom: 1px solid white;
+
 }
 
 ul li a {
@@ -109,7 +111,7 @@ ul li a {
 }
 
 ul li {
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 ul {
