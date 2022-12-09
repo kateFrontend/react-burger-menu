@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    position: fixed;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+main {
+    padding: 5rem 2rem;
+}
+
+p {
+    margin: 20px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.burger-btn{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.burger-btn:before {
+    content: '';
+    position: absolute;
+    top:0;
+    width: 20px;
+    background-color: black;
+    height: 2px;
+}
+
+.burger-btn span {
+    content: '';
+    position: absolute;
+    top:9px;
+    width: 20px;
+    background-color: black;
+    height: 2px;
+}
+
+.burger-btn:after{
+    content: '';
+    position: absolute;
+    bottom:0;
+    width: 20px;
+    background-color: black;
+    height: 2px;
+}
+
+.menu {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 50px;
+    left: 0;
+    transform: translateX(-130%);
+    transition: all 0.2s;
+}
+
+.menu.active {
+    transform: translateX(0);
+}
+
+.blur {
+    width: 100vw;
+    height: 100vh;
+    left: 30%;
+    backdrop-filter: blur(2px);
+    position: absolute;
+}
+
+.menu_content {
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.4s;
+}
+
+.menu_header {
+    font-size: 2rem;
+    color: white;
+    padding: 2rem;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+ul li {
+    margin-top: 1rem;
+}
+
+ul {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+    .menu_content {
+        width: 100%;
+    }
+
+    .blur {
+        backdrop-filter: none;
+    }
+}
