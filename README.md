@@ -1,6 +1,7 @@
 # React burger-menu
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![cover](./src/01.jpeg)
+
 
 ## 🦉 Main information
 
@@ -20,6 +21,8 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ## ⚡ Setup
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ```
 npx create-react-app my-app
