@@ -10,8 +10,8 @@ function Menu({ header, items, active, setActive }) {
       <div className="menu_content" onClick={(e) => e.stopPropagation()}>
         <div className="menu_header">{header}</div>
         <ul>
-          {items.map((item) => (
-            <li>
+          {items.map((item, index) => (
+            <li key={index}>
               <a href={item.href}>{item.value}</a>
             </li>
           ))}
